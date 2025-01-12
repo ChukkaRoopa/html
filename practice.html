@@ -1,0 +1,206 @@
+<!-- HTML is hyper text markup language for creating web pages -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>
+            html practice
+        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+        <style>
+            h2 {color: blueviolet; border: 2px solid black; padding: 3px; margin: 50px;}
+            p {color: darkmagenta; font-size: 100%; font-family: 'Times New Roman';}
+            body {background-color: yellow;
+                background-image: url(images/html_image.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;           
+            }
+            a:link {color: blue; background-color: lightseagreen; display: inline-block;}
+            a:hover {color: black; background-color: red;}
+            table, td,th {border: 2px solid white; border-collapse: collapse; text-align: left;}
+            td, th {background-color: lightgreen; border-radius: 10px;}
+            tr:nth-child(even) {background-color: #00ff00;}
+            li {float: left;}
+            li a {display: block; color: white;}
+            li a:hover {background-color: black;}
+            ul {background-color: black;}
+        </style>
+    </head>
+
+    <body style="background-color: lightskyblue;">
+
+        <h1 style="font-size: 50px;font-family: Courier;text-align: center;">Dogs</h1>
+        <a href="https://headsupfortails.com/blogs/dogs/dog-breeds-in-india?srsltid=AfmBOoph5nYqLm0dA4jYlQhQIeycVWEOuY4SvcclCfT1Q1TUYTGWrzzm" target="_blank">Popular breads in India</a>
+        <br><br>
+
+        <a href="#P">link to Pug Dog</a>
+        <hr>
+
+        <p style="color: green;" title="leo"><b>Labrador</b></p>
+        <a href="https://en.wikipedia.org/wiki/Labrador_Retriever"><img src="images/Labrador.webp" alt="Labrador_image" width="150" height="150"></a>
+        <pre>
+        <i> - Life expectancy <del>15 years</del> <ins>10-14 years</ins> </i>
+        <strong>- Suitable for <mark>Indian</mark> climate</strong>
+        <small>- Height- Male 62 <sub>cm</sub> / Female 60 <sup>cm</sup></small>
+        </pre>
+        <hr>
+
+        <br>
+        <p title="jimmy" style="color: green;"><b>Golden Retriever</b></p>
+        <button onclick="document.location='https://en.wikipedia.org/wiki/Golden_Retriever'">Golden_Retriever_wiki</button>
+        <p> <abbr title="Golden_Retriever">GR</abbr> life expectancy 10-12 years</p>
+        <p>Originally from Scotland, <cite>Golden Retrievers</cite> are in demand as they are <q>caring, intelligent and very obedient</q></p>
+        <bdo dir="rtl">Suitable for Indian climate</bdo>
+        <hr><br>
+
+        <p style="background-color: #00ff00;">Boxer</p>
+        <p style="background-color: rgba(255, 60, 80, 0.2);">Life expectancy-10-12 years</p>
+        <p style="background-color: hsla(120, 60%, 30%, 1);">Height: male/female 63 cm- 60cm</p>
+        <p><img src="images/boxer.png" alt="Boxer image" style="width: 70px;height: 70px;float: left;">Boxer dogs make lovely pets, one of the best dogs for home in India as they are effortless to train and maintain.</p>
+        <br><br><hr>
+
+        <h2 id="P">Pug</h2>
+        <p>Life span-12-15 years</p>
+        <p>Size: Around 33 cms</p>
+        <hr><br>
+        
+        <h1 style="text-align: center;">Imagemap</h1>
+        <img src="images/workplace.png" alt="workplace" usemap="#workplace">
+        <map name="workplace">
+            <area shape="rect" coords="34,44,270,350", alt="Computer", href="https://www.britannica.com/technology/computer" target="_blank">
+            <area shape="rect", coords="290,172,333,250", alt="Phone", href="https://en.wikipedia.org/wiki/Mobile_phone">
+            <area shape="circle", coords="337,300,44", alt="Coffee", href="https://en.wikipedia.org/wiki/Coffee">
+        </map>
+
+        <address style="border: 2px solid blue;">
+            Written by Roopa<br>
+            Email - roopa@gmail.com<br>
+            Andhra Pradesh<br>
+        </address>
+        <br><hr>
+
+        <h1>Table</h1>
+
+        <table style="width: 70%;">
+            <caption>Employee Table</caption>
+
+            <tr>
+                <th colspan="2", style="text-align: center;">Name</th>
+                <th>Email</th>
+                <th>Company</th>
+            </tr>
+
+            <tr>
+                <td>Roopa</td>
+                <td>Chukka</td>
+                <td>roopa@gmail.com</td>
+                <td>Cisco</td>
+            </tr>
+
+            <tr>
+                <td>leo</td>
+                <td>jimmy</td>
+                <td>leo@gmail.com</td>
+                <td>Walmart</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h1>Unordered list</h1>
+        <ul>
+            <li>lab</li>
+            <li>Golden_Retriever</li>
+            <li>Husky</li>
+        </ul>
+
+        <br><hr>
+
+        <h1>Ordered list</h1>
+        <ol>
+            <li>lab</li>
+            <li>Golden_Retriever</li>
+            <ul>
+                <li>Boxer</li>
+                <li>Pug</li>
+            </ul>
+            <li>Husky</li>
+        </ol>
+
+        <br><hr>
+
+        <h1>Horizontal list with css</h1>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Home_page">Home</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Home_page">About</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Home_page">Contacts</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Home_page">news</a></li>
+        </ul>
+
+        <br><br><hr>
+
+        <h1>Javascript</h1>
+        <button type="button" onclick="myfunction()">Click me!</button>
+        <p id="demo">Html page</p>
+        <script>
+            function myfunction() {
+                document.getElementById("demo").innerHTML="Hello Javascript"
+            }
+        </script>
+        <hr>
+
+        <h1>Html Forms</h1>
+        <form action="images/welcome.png" autocomplete="on">
+            <label for="name">Enter your name: </label>
+            <input type="text" id="name" value="roopa"><br>
+
+            <p>Choose your Programming language</p>
+
+            <input type="radio" id="Python" name="fav_lang" value="python">
+            <label for="Python">I know Python</label><br>
+
+            <input type="radio" id="java" name="fav_lang" value="java lang">
+            <label for="java">I know Java</label><br>
+
+            <p>Choose the Frameworks</p>
+
+            <input type="checkbox" id="django">
+            <label for="django">I know Django</label><br>
+
+            <input type="checkbox" id="nodejs">
+            <label for="nodejs">I know Nodejs</label><br>
+
+            <h1>Select Element</h1>
+
+            <label for="Programming">Select the programming language: </label>
+            <select id="Programming" name="Prgm">
+                <option value="python">Python</option>
+                <option value="java" selected>Java</option>
+                <option value="c">C</option>
+                <option value="r">R</option>
+                <option value="c++">c++</option>
+            </select>
+            <br>
+
+            <input type="color" id="color" name="fav_color" value="color">
+            <label for="color">Choose your color</label><br>
+
+            <input type="submit" value="submit"><br>
+
+            <button type="button" onclick="alert('Hello World!')">Click me!!!</button>
+        </form>
+
+        <video width="320" height="200" controls>
+            <source src="images/mov_bbb.mp4" type="video/mp4">
+        </video>
+
+    </body>
+
+</html>

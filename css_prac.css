@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: violet;
+}
+
+p {
+    color: darkblue;
+}
+
+#id_selector {
+    color: darkred;
+}
+
+.class_selector {
+    color: rgb(64, 17, 66);
+}
